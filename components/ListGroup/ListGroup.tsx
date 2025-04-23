@@ -5,11 +5,14 @@ const ListGroup = () => {
   const items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
 
   return (
-    <ul>
-      {items.map((item) => (
-        <li key={item}>{item}</li>
-      ))}
-    </ul>
+    <>
+      <h1>Cities</h1>
+      <ul>
+        {items.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+    </>
   );
 };
 
